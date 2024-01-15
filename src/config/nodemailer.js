@@ -4,11 +4,11 @@ dotenv.config()
 
 
 const transport = nodemailer.createTransport({
-    host: process.env.HOST_MAILTRAP,
-    port: process.env.PORT_MAILTRAP,
+    host: process.env.HOST_MAILTRAP || "smtp.gmail.com",
+    port: process.env.PORT_MAILTRAP || 465,
     auth: {
-        user: process.env.USER_MAILTRAP,
-        pass: process.env.PASS_MAILTRAP,
+        user: process.env.USER_MAILTRAP || "bryand9970@gmail.com",
+        pass: process.env.PASS_MAILTRAP || "ylbtukhjxjttvaxu",
     }
 });
 
@@ -20,7 +20,7 @@ const sendMailToUser = async(userMail, token) => {
         html: `
         <h1>Poli-Vet 🐶😺🐹 | Sistema de Gestión Veterinaria</h1>
         <p>Hola, haz clic 
-            <a href="${process.env.URL_BACKEND}confirmar/${encodeURIComponent(token)}">aquí</a> 
+            <a href="${process.env.URL_BACKEND || "http://localhost:3000/api/"}confirmar/${encodeURIComponent(token)}">aquí</a> 
         para confirmar tu cuenta.</p>
         <footer>Hecho con ❤️ en la ESFOT-EPN.</footer>`
     });
