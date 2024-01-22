@@ -25,6 +25,7 @@ app.use(express.json())
 // Rutas 
 app.use('/api',routerVeterinarios)
 app.use('/api',routerPacientes)
+
 // Manejo de una ruta que no sea encontrada
 app.use((req,res)=>res.status(404).send("Endpoint no encontrado - 404"))
 
