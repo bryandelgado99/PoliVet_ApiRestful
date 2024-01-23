@@ -96,22 +96,25 @@ En este apartado, cada veterinario debe ingresar al sistema su paciente (la prim
 - #### Ruta de Login del paciente
 Método: POST  
  Enlace: /paciente/login
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/login.png)
 
 - #### Ruta de Registro del paciente
 Método: POST  
 Enlace: /paciente/registro
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/registro.png)
+
+Una vez registrado el paciente, se envia un correo con su contraseña autogenerada:  
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/correo-pass.png)
 
 - #### Ruta de Listado de paciente (por veterinario)
 Método: GET  
 Enlace: /pacientes
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/listar_pacientes.png)
 
 - #### Ruta de Detalle del paciente 
 Método: GET  
 Enlace: /paciente/:id
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/listar_pacientes.png)
 
 - #### Ruta de Perfil del paciente
 Método: GET  
@@ -121,11 +124,11 @@ Enlace: /paciente/perfil
 - #### Ruta de Actualizar perfil del paciente
 Método: PUT  
 Enlace: /paciente/actualizar/:id
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/actualizar_paciente.png)
 
 - #### Ruta de Eliminar Paciente
 Método: DELETE  
 Enlace: /paciente/eliminar/:id
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4ee4f6208ca6aa400f3bfe02ddbee81622fc936b/images/paciente/eliminar_paciente.png)
 
 ### Apartado de Tratamiento
