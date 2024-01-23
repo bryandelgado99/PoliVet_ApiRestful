@@ -18,7 +18,7 @@ Visualiza el archivo [env.example](.env.example) para identificar las variables 
 
 ## Funcionamiento
 > [!IMPORTANT]
-> Para acceder al apartado de paciente y tratamiento, se necesita del Token generado al registrar el veterinario. Sin esto, no se puede reaizar ninguna actividad en el sistema.
+> Para acceder al apartado de paciente y tratamiento, se necesita del Token generado al registrar el veterinario. Sin esto, no se puede realizar ninguna actividad en el sistema.
 
 #### Apartado de Veterinario
 - En este apartado se agrega al sistema un veterianario (todos los datos de este) y se entrega un token. 
