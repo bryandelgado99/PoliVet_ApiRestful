@@ -1,5 +1,6 @@
 import { sendMailToPaciente } from "../config/nodemailer.js"
 import Paciente from "../models/Paciente.js"
+
 import mongoose from "mongoose"
 
 const loginPaciente = async(req,res)=>{
