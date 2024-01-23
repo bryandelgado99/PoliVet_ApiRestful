@@ -17,6 +17,8 @@ Este proyecto contempla diferentes variables de entorno para poder utilizar el p
 Visualiza el archivo [env.example](.env.example) para identificar las variables de entorno, su estructura y que elementos se necesitan para utilizarlas.
 
 ## Funcionamiento
+> Para acceder a este aplicativo desde local, se debe utilizar la siguiente dirección: _localhot:3000/api/{ruta a emplear}_
+
 > [!IMPORTANT]
 > Para acceder al apartado de paciente y tratamiento, se necesita del Token generado al registrar el veterinario. Sin esto, no se puede realizar ninguna actividad en el sistema.
 
