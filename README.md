@@ -34,7 +34,7 @@ Enlace: /registro
     ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/77b868f91533ce41f0c02e7974319e435da7c4af/images/registro.png)
   - ##### Validación de datos
     ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/77b868f91533ce41f0c02e7974319e435da7c4af/images/validacion_datos.png)
-  - Unna vez registrado, lo visualizamos dentro de la base de datos, en este caso, dentro de MongoDB Compass.
+  - Una vez registrado, lo visualizamos dentro de la base de datos, en este caso, dentro de MongoDB Compass.
     ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4c7a75d99cd356cf9b318f00caf12de974de7e8b/images/compass.png)
 
 - #### Ruta de Login
