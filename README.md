@@ -91,7 +91,7 @@ Enlace: /veterinario/:id
 ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/77b868f91533ce41f0c02e7974319e435da7c4af/images/actualizaci%C3%B3n-perfil.png)
 
 ### Apartado de Paciente
-- En este apartado, cada veterinario debe ingresar al sistema su paciente (la primera vez). Se le generará una contraseña, que deberá ser cambiada para el acceso posterior del paciente al sistema.
+En este apartado, cada veterinario debe ingresar al sistema su paciente (la primera vez). Se le generará una contraseña, que deberá ser cambiada para el acceso posterior del paciente al sistema.
 
 - #### Ruta de Login del paciente
 Método: POST  
