@@ -34,6 +34,8 @@ Enlace: /registro
     ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/77b868f91533ce41f0c02e7974319e435da7c4af/images/registro.png)
   - ##### Validación de datos
     ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/77b868f91533ce41f0c02e7974319e435da7c4af/images/validacion_datos.png)
+  - Unna vez registrado, lo visualizamos dentro de la base de datos, en este caso, dentro de MongoDB Compass.
+    ![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4c7a75d99cd356cf9b318f00caf12de974de7e8b/images/compass.png)
 
 - #### Ruta de Login
 Método: POST  
@@ -51,7 +53,7 @@ Enlace: /confirmar/:token
 - #### Ruta de Lista de Veterinarios
 Método: GET  
 Enlace: /veterinarios
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4c7a75d99cd356cf9b318f00caf12de974de7e8b/images/listado_vet.png)
 
 - #### Ruta de Recuperar contraseña
 Método: POST  
@@ -71,7 +73,7 @@ Enlace: /nuevo-pasword/:token
 - #### Ruta de Perfil de veterinario
 Método: GET  
 Enlace: /perfil
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4c7a75d99cd356cf9b318f00caf12de974de7e8b/images/perfil-vet.png)
 
 - #### Ruta de Actualizar contraseña
 Método: PUT  
@@ -81,7 +83,7 @@ Enlace: /veterinario/actualizarpassword
 - #### Ruta de Detalle del veterinario
 Método: GET  
 Enlace: /veterinario/:id
-![]()
+![](https://github.com/bryandelgado99/PoliVet----Api__APP/blob/4c7a75d99cd356cf9b318f00caf12de974de7e8b/images/detalle-vet.png)
 
 - #### Ruta de Actualizar perfil del veterinario
 Método: PUT  
